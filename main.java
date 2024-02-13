@@ -6,14 +6,17 @@
 //   - is also divisible by 100, it is NOT a leap year.
 //   - is also divisible by 400, it IS a leap year.
 //--------------------------------------------------------
-public class Main {
+public class main {
   public static void main(String[] args) {
+    //Declaring variables
+    int year;
+
     System.out.println("\nPRACTICUM on if statements in Java\n");
     System.out.println(
          "Will determine if a given year is a leap_year year.\n");
       
     // declare input Scanner 
-    Scanner input = new Scanner(System.in);
+    java.util.Scanner input = new java.util.Scanner(System.in);
 
     // get input
     System.out.print("Enter year: ");
@@ -26,7 +29,7 @@ public class Main {
     if (year % 4 == 0) {
 
       // is also divisible by 100?
-      if (year % 100 = 0) {
+      if (year % 100 == 0) {
 
         // is also divisible by 400?
         if (year % 400 == 0)
